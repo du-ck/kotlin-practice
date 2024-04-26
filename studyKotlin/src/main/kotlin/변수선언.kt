@@ -36,10 +36,12 @@ fun main(args: Array<String>) {
 
     //객체 인스턴스화
     // Person person = new Person("NWU");
-    var person = Person("NWU")
+    var person = Person("NWU", 10)
 
 }
 
-class Person(s: String) {
+class Person(s: String, age: Int) {
+    val name = s
+    var age = age
 
 }
